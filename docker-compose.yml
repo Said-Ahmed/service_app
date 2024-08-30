@@ -1,0 +1,15 @@
+networks:
+  dev:
+
+services:
+  web-app:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./service:/service
+    networks:
+      - dev
+    command: >
+      sh -c "python manage.py runserver"
