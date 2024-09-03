@@ -5,6 +5,9 @@ COPY service /service
 WORKDIR /service
 #Назначает рабочую диреуторию
 EXPOSE 8000
+
+RUN apk add postgresql-client build-base postgresql-dev
+
 #Пробрасываем порт для docker контейнера
 RUN pip install -r /temp/requirements.txt
 
