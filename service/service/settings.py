@@ -37,12 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
-=======
     'rest_framework',
     'clients',
     'services'
->>>>>>> f2e6953 (commit 3)
 ]
 
 MIDDLEWARE = [
@@ -129,8 +126,6 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-<<<<<<< HEAD
-=======
 
 LOGGING = {
     'version': 1,
@@ -144,4 +139,3 @@ LOGGING = {
         }
     }
 }
->>>>>>> f2e6953 (commit 3)
